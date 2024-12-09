@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(41,41,41);
+    color: rgb(255, 255, 255);
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    margin: auto;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid #838383;
+    font-family: monospace;
+    font-size: 64px;
+    text-align: center;
+    /* box-shadow: 0 0 0 2px; */
+    cursor: pointer;
+  }
+
+
+  
